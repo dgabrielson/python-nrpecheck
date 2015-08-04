@@ -40,10 +40,10 @@ class NrpeCheck(object):
     Base class for running NRPE checks.
     Reference: https://assets.nagios.com/downloads/nagioscore/docs/nagioscore/3/en/pluginapi.html
     """
-    OK = 1
-    WARNING = 2
-    CRITICAL = 3
-    UNKNOWN = 4
+    OK = 0
+    WARNING = 1
+    CRITICAL = 2
+    UNKNOWN = 3
     
     MAX_MESSAGE_LENGTH = 4096
 
