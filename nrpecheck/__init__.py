@@ -70,8 +70,8 @@ class NrpeCheck(object):
         message = output_lines[0]
         if perfdata_lines[0]:
             message += u'|' + perfdata_lines[0]
-        if output_lines[1:] or perfdata_lines[1:]
-        message += u'\n'
+        if output_lines[1:] or perfdata_lines[1:]:
+            message += u'\n'
         if output_lines[1:]:
             message += u'\n'.join(output_lines[1:])
         if perfdata_lines[1:]:
